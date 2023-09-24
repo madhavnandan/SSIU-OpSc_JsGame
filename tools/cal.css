@@ -1,0 +1,93 @@
+body {
+    margin: auto;
+    padding: 1px;
+    background: linear-gradient(to right ,black,rgb(119 133 115) , black);
+    display: flex;
+    flex-direction: column;
+}
+
+#cal {
+    border: 3px solid white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 2px;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#caltext {
+    border: 5px solid rgb(24, 21, 21);
+    border-radius: 5px;
+    height :40px;
+    width : 275px;
+    margin : 5px;
+    background-color: rgb(92, 97, 97);
+    text-align: right;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 22px;
+}
+
+#buttom {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(24, 21, 21);
+    border-radius: 5px;
+    height :350px;
+    width : 278px;
+    margin : 5px;
+    margin-top: 25px;
+}
+
+.buttomarr {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    margin-top: 15px;
+}
+
+.buttomarr button {
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+#name {
+    color: gray;
+    font-size: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+#name h1{
+    color: rgb(41, 40, 40);
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+#solar{
+    background-color: gray;
+    height: 28px;
+    width: 95px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+#madhav{
+    margin-left: 180px;
+}
+
+input:hover
+{
+background-color: green;
+}

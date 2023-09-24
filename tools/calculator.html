@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WElcome</title>
+    <link rel="stylesheet" href="./cal.css">
+    <script src="./cal.js"></script>
+</head>
+<body>
+    <div id="cal">
+      <div id="name">
+        <h1>fs-25ms</h1>
+        <h1 id="madhav">MADHAV</h1>
+      </div>
+      <div>
+        <div id="solar"></div>
+      </div>
+      <div name="form" >
+        <input id="caltext" name="caltext" type="text">
+      </div>
+      <div id="buttom">
+       <div class="buttomarr"><button type="button" value="1" onclick="insert(1)">1</button>
+       <button name="2" value="2" onclick="insert(2)" >2</button>
+       <button id="3" value="3" onclick="insert(3)">3</button></div>
+       <div class="buttomarr">
+       <button id="4" value="4" onclick="insert(4)">4</button>
+       <button id="5" value="5" onclick="insert(5)">5</button>
+       <button id="6" value="6" onclick="insert(6)">6</button> </div>
+       <div class="buttomarr">
+       <button id="7" value="7" onclick="insert(7)">7</button>
+       <button id="8" value="8" onclick="insert(8)">8</button>
+       <button id="9" value="9" onclick="insert(9)">9</button></div>
+       <div class="buttomarr">
+       <button id="0" value="0" onclick="insert(0)">0</button>
+       <button id="+" value="+" onclick="insert('+')">+</button>
+       <button id="-" value="-" onclick="insert('-')">-</button></div>
+       <div class="buttomarr">
+       <button id="x" value="x" onclick="insert('*')">x</button>
+       <button id="/" value="/" onclick="insert('/')">/</button>
+       <button id="=" value = "=" onclick = "equal()">=</button> </div>
+       <div class="buttomarr">
+         <button id="clear" value="C" onclick="caltext.value = ' ' " >C</button>
+       <button id="back" value="B" onclick="backspace()">B</button>
+       <button id="." value="." onclick="insert('.')">.</button
+       </div>
+      </div>
+    </div>
+</body>
+</html>
