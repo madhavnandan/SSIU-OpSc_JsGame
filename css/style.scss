@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@import "loader";
